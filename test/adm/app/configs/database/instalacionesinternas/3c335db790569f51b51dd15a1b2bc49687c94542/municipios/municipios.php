@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["nombre"],"table":{"crudTitle":"municipios manager","crudRowsPerPage":"20"},"filter":{"list":["id","nombre"],"atrr":{"id":{"alias":"id"}},"actived":["nombre"]},"column":{"list":["id","nombre"],"atrr":{"id":{"alias":"id"}},"actived":["id","nombre"]},"frm_type":"2","confirm_page":"1"}

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"posee_gas","label":"Posee gas vereda","type":"select","options":["Si","No","No Sabe"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","def_val":["","","No Sabe"],"list_choose":"default"}

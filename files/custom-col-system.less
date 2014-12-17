@@ -1,0 +1,90 @@
+/*Sistema de Columnas*/
+.row {
+    position: relative;
+    width: (100%) - (2.4%);
+    padding: 0 1.2%;
+    height: 100%;
+}
+
+.row .row {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.row > .col-ui:first-of-type {
+    padding-left: 0;
+}
+
+.row > .col-ui:last-of-type {
+    padding-right: 0;
+}
+
+    .row div.separation:nth-child(even) {
+        border-left: 1px solid #ffffff;
+    }
+
+    .row div.separation:nth-child(odd) {
+        border-right: 1px solid #d5d5d5;
+    }
+
+.row:after {
+    position: relative;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-ui {
+    position: relative;
+    display: block;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 7px 14px 0 0px;
+    overflow: visible;
+    &:last-of-type {
+        padding-right: 0 !important;
+    }
+}
+
+.col-4 > .col-4 {
+	padding-top: 0px;
+}
+
+.col-1 { width: (100%) / 12 * 1; .col-ui }
+.col-2 { width: (100%) / 12 * 2; .col-ui }
+.col-3 { width: (100%) / 12 * 3; .col-ui }
+.col-4 { width: (100%) / 12 * 4; .col-ui }
+.col-5 { width: (100%) / 12 * 5; .col-ui }
+.col-6 { width: (100%) / 12 * 6; .col-ui }
+.col-7 { width: (100%) / 12 * 7; .col-ui }
+.col-8 { width: (100%) / 12 * 8; .col-ui }
+.col-9 { width: (100%) / 12 * 9; .col-ui }
+.col-10 { width: (100%) / 12 * 10; .col-ui }
+.col-11 { width: (100%) / 12 * 11; .col-ui }
+.col-12 { width: (100%) / 12 * 12; .col-ui}
+
+@media all and (max-width: 624px) and (min-width: 10px) {
+	.col-ui {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	.col-1 { width: (100%) / 12 * 12; .col-ui }
+	.col-2 { width: (100%) / 12 * 12; .col-ui }
+	.col-3 { width: (100%) / 12 * 12; .col-ui }
+	.col-4 { width: (100%) / 12 * 12; .col-ui }
+	.col-5 { width: (100%) / 12 * 12; .col-ui }
+	.col-6 { width: (100%) / 12 * 12; .col-ui }
+	.col-7 { width: (100%) / 12 * 12; .col-ui }
+	.col-8 { width: (100%) / 12 * 12; .col-ui }
+	.col-9 { width: (100%) / 12 * 12; .col-ui }
+	.col-10 { width: (100%) / 12 * 12; .col-ui }
+	.col-11 { width: (100%) / 12 * 12; .col-ui }
+	.col-12 { width: (100%) / 12 * 12; .col-ui}
+	
+	.col-4 > .col-4 {
+		padding-top: 7px;
+	}
+}

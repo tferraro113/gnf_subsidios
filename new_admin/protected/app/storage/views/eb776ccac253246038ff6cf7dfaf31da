@@ -1,0 +1,48 @@
+<div class="sidebar-content">
+<div class="user-menu"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+	
+        <div class="user-info"><b><?php echo Session::get('fid'); ?></b> <br />
+		<?php echo Lang::get('core.lastlogin');; ?> : <br />
+		<small><?php echo date("H:i F j, Y", strtotime(Session::get('ll'))); ?></small></div>
+        </a>
+        
+</div>
+
+      <!-- Main navigation -->
+	  <?php /**/ $sidebar = SiteHelpers::menus('sidebar') /**/ ?>
+      <ul class="navigation">
+	  	<li  ><a href="<?php echo URL::to('config/dashboard'); ?>"><span>Dashboard</span> <i class="icon-home"></i> </a></li>
+		<?php foreach ($sidebar as $menu): ?>
+			 <li <?php if(Request::is($menu['module'])): ?> class="active" <?php endif; ?>>
+			 	<a 
+					<?php if($menu['menu_type'] =='external'): ?>
+						href="<?php echo URL::to($menu['url']); ?>" 
+					<?php else: ?>
+						href="<?php echo URL::to($menu['module']); ?>" 
+					<?php endif; ?>				
+			 	
+				 <?php if(count($menu['childs']) > 0 ): ?> class="expand level-closed" <?php endif; ?>>
+			 		<span><?php echo $menu['menu_name']; ?></span>  <i class="<?php echo $menu['menu_icons']; ?>"></i>
+				</a> 
+				<?php if(count($menu['childs']) > 0): ?>
+					<ul>
+						<?php foreach ($menu['childs'] as $menu2): ?>
+						 <li <?php if(Request::is($menu2['module'])): ?> class="active" <?php endif; ?>>
+						 	<a 
+								<?php if($menu2['menu_type'] =='external'): ?>
+									href="<?php echo URL::to($menu2['url']); ?>" 
+								<?php else: ?>
+									href="<?php echo URL::to($menu2['module']); ?>"  
+								<?php endif; ?>									
+							>
+								<span><?php echo $menu2['menu_name']; ?></span>  
+							</a> 
+						</li>							
+						<?php endforeach; ?>
+					</ul>
+				<?php endif; ?>
+			</li>
+		<?php endforeach; ?>
+      </ul>
+      <!-- /main navigation -->
+ </div>

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"codigo","label":"Imagen","type":"file","type_options":{"size":"210","width":"300","height":"100","thumbnail":"medium","img_width":"","img_height":""},"validation":"notEmpty","def_val":""}

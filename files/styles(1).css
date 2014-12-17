@@ -1,0 +1,53 @@
+/**
+ * Innoexts
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@innoexts.com so we can send you a copy immediately.
+ * 
+ * @category    Innoexts
+ * @package     Innoexts_CustomerLocator
+ * @copyright   Copyright (c) 2012 Innoexts (http://www.innoexts.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* Mini Blocks */
+.block-customer-address { 
+    font-size: 11px; 
+    line-height: 1.25; 
+}
+.block-customer-address .block-title strong {
+    background-position: 0 0; 
+    background-repeat: no-repeat; 
+    padding-left: 21px;
+}
+/* Block: Customer Address */
+.block-customer-address .form-list { 
+    padding: 5px 10px;
+}
+.block-customer-address .customer-address-id-form-list {
+    padding: 5px 10px 0px 10px;
+}
+.block-customer-address .customer-address-form-list {
+    padding: 0px 10px 5px 10px;
+}
+
+.block-customer-address .block-title strong {
+    background-image: url(../../images/i_shipping.gif);
+}
+.block-customer-address input.input-text { 
+    display: block; 
+    /*width: 167px;*/
+    margin: 3px 0; 
+}
+.block-customer-address select {
+    display: block; 
+    /*width: 172px;*/
+    margin: 3px 0;
+}
+

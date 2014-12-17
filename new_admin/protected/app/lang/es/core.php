@@ -1,0 +1,156 @@
+<?php
+
+return array(
+// General 
+	"norecord" => "No se encontraron resultados",
+	"create" => "Crear Nuevo",
+
+	// General , Login Info & Signup
+	"home" => "Home",
+	"group" => "Grupo",
+	"username" => "Usuario",
+	"email" => "Email",
+	"password" => "Password",
+	"repassword" => "Confirmar Passowrd",
+	"forgotpassword" => "Olvidaste el password",
+	"newpassword" => "Nuevo password",
+	"conewpassword" => "Confirmar Password",
+	"notepassword" => "Dejalo vacio si no queres cambiar password actual",	
+	"submit" => "Enviar",
+	"signin" => "Loguear",
+	"signup" => "Registrarse",
+	"language" => "Idioma",	
+	"firstname" => "Nombre",
+	"lastname" => "Apellido",
+	"lastlogin"	=> "Ultimo Login",
+	"personalinfo"	=> "Información Personal",
+	"changepassword"	=> "Cambiar Password",
+	"registernew" => "Registrar nueva cuenta",
+	
+/* grid , pagination */
+	"grid_displaying" 	=> "Mostrando",
+	"grid_to" 			=> "a",
+	"grid_of" 			=> "de",
+	"grid_show" 			=> "Mostrar",
+	"grid_sort" 			=> "Ordenar",
+	"grid_order" 			=> "Orden",	
+		
+
+/* Menu navigation here */
+	"m_controlpanel"	=> "Panel de Control",
+	"m_dashboard" 		=> "Tablero",
+	"m_setting" 		=> "Preferencias",
+	"m_usersgroups" 	=> "Usuarios y Grupos",
+	"m_users" 			=> "Usuarios",
+	"m_groups" 			=> "Grupos",
+	"m_pagecms" 		=> "CMS Páginas",
+	"m_menu" 			=> "Menu",
+	"m_logs" 			=> "Logs de actividad",
+	"m_codebuilder" 	=> "Constructor de código",
+	"m_blastemail" 		=> "Blast Email",
+	"m_myaccount" 		=> "Mi Cuenta",
+	"m_logout" 			=> "Desloguearse",
+	"m_profile" 		=> "Perfil",
+
+/* Setting page translation */	
+
+	"t_generalsetting"		=> "Preferencias Generales",
+	"t_generalsettingsmall"	=> "Configuracion Preferencias Básicas",
+	"t_blastemail"			=> "Blast Email",
+	"t_blastemailsmall"		=> "Enviar bulk email a usuarios",
+	"t_emailtemplate"		=> "Email Template",
+	"t_emailtemplatesmall"	=> "Template Email",
+	"t_loginsecurity"		=> "Login & Registratción",
+	"t_loginsecuritysmall"	=> "",		
+	"t_socialmedia"			=> "Social media",
+	"t_lfb"					=> "Login Facebook",
+	"t_lgoogle"				=> "Login Google",
+	"t_ltwit"				=> "Login Twitter",
+	"tab_siteinfo"			=> "Información del Sitio",
+	"tab_loginsecurity"		=> "Login & Seguridad",
+	"tab_email"				=> "Email Template",
+	"fr_appname"			=> "Nombre de Aplicación ",
+	"fr_appdesc"			=> "Descripción de Aplicación",
+	"fr_comname"			=> "Nombre Compañìa ",
+	"fr_emailsys"			=> "Email System ",
+	"fr_emailmessage"		=> "Email Message ",
+	"fr_enable"				=> "Activar",
+	"fr_mainlanguage"			=> "Idioma Principal",
+	"fr_appid"				=> "APP ID",
+	"fr_secret"				=> "Número Secreto",
+	"fr_registrationdefault"		=> "Grupo por defecto al registrarse ",
+	"fr_registrationsetting"	=> "Preferencias de Registro",
+	"fr_registration"		=> "Registración",
+	"fr_registrationauto"		=> "Activación automática ",
+	"fr_registrationmanual"		=> "Activación manual ",
+	"fr_registrationemail"		=> "Email con link de activación ",	
+	"fr_emailsubject"				=> "Asunto",
+	"fr_emailsendto"				=> "Enviar A",
+	"fr_emailmessage"				=> "Menjsae",
+	"fr_emailtag"					=> "Email Tag",
+	
+	
+/* submit */
+	"sb_savechanges"			=> "Guardar Cambios",
+	"sb_send"					=> "Enviar",
+	"sb_save"					=> "Guardar",
+	"sb_submit"					=> "Enviar",
+	"sb_cancel"					=> "Cancelar",	
+	
+/* button */
+	"btn_back"						=> "Atrás",	
+	"btn_action"					=> "Acción",	
+	"btn_search"					=> "Buscar",	
+	"btn_download"					=> "Descargar",	
+	"btn_config"					=> "Configuración",	
+	"btn_create"					=> "Crear",	
+	"btn_remove"					=> "Borrar",
+	"btn_edit"						=> "Editar",	
+	"btn_view"						=> "Ver",
+	"btn_typesearch"				=> "Tipo Búsqueda",		
+	
+/* Core Module */
+	"t_menu"						=> "Administrar Menú",
+	"t_menusmall"					=> "Listar Menu",
+	"t_tipsdrag"					=> "Drag and Drop para reordenar el menu ",
+	"t_tipsnote"					=> "Nota ! , El Menu solo soporta 3 niveles ",
+	"tab_topmenu"					=> "Top Menu",
+	"tab_sidemenu"					=> "Side Menu ",
+	"sb_reorder"					=> "Reordenar Menu",	
+	"fr_mtitle"						=> "Nombre / Titulo ",	
+	"fr_mtype"						=> "Tipo de Menu",	
+	"fr_mposition"					=> "Posición",	
+	"fr_mactive"					=> "Activo",	
+	"fr_minactive"					=> "Inactivo",
+	"fr_maccess"					=> "Acceso",	
+	"fr_miconclass"					=> "Icono",
+	"fr_mpublic"					=> "Publicar",
+	"fr_mexample"					=> "Ejemplo",
+	"fr_musage"						=> "Usar",	
+	
+/* Module */
+	"t_module"						=> "Modulo",
+	"t_modulesmall"					=> "Lista de Todos los Módulos",
+	"tab_installed"					=> "Modulo Instalado",
+	"tab_core"						=> "Core Modulo",
+	"fr_modtitle"					=> "Nombre del Módulo",
+	"fr_modnote"					=> "Nota del Módulo",
+	"fr_modtable"					=> "Tabla del Módulo",
+	"fr_modautosql"					=> "Sentencia Mysql Automática",
+	"fr_modmanualsql"				=> "Sentencia Mysql Manual ",
+	
+/*updates	on may ,5 2014 */
+	
+	"loginsocial"				=> "Login Social Networking",
+	"enteremailforgot"			=> "Ingresa tu Email",
+	"detail" 					=> "Ver Detalle",
+	"addedit" 					=> "Agregar - Editar",
+	
+/* Notification */
+	"note_noexists"				=> "La página no existe!",
+	"note_restric"				=> "No tenes permisos para acceder a esta página!",
+	"note_success"				=> "La información ha sido guardada correctamente !",
+	"note_error"				=> "Los siguientes errores ocurrieron !",
+	"note_success_delete"		=> "Ha sido removido exitosamente!",	
+
+);

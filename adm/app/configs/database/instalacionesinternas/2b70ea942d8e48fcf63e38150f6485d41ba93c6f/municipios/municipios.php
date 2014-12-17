@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["nombre"],"table":{"crudTitle":"Listado de Municipios","crudRowsPerPage":"20","crudOrderField":"nombre","crudOrderType":"asc"},"filter":{"list":["id","nombre"],"actived":["nombre"],"atrr":{"nombre":{"alias":"Nombre"},"id":{"alias":"id"}}},"column":{"list":["id","nombre"],"actived":["id","nombre"],"atrr":{"nombre":{"alias":"Nombre"},"id":{"alias":"id"}}},"frm_type":"2","confirm_page":"1"}

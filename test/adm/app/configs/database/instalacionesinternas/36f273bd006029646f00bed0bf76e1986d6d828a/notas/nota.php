@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"nota","label":"Nota","type":"textarea","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","def_val":"","db_options":{"table":"contactos","key":"id","value":"nombre"},"list_choose":"default"}

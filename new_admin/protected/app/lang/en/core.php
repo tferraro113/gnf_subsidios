@@ -1,0 +1,156 @@
+<?php
+
+return array(
+// General 
+	"norecord" => "No Record Found",
+	"create" => "Create New",
+
+	// General , Login Info & Signup
+	"home" => "Home",
+	"group" => "Group",
+	"username" => "Username",
+	"email" => "Email Address",
+	"password" => "Password",
+	"repassword" => "Confirm Password",
+	"forgotpassword" => "Forgot Password",
+	"newpassword" => "New Password",
+	"conewpassword" => "Confirm Password",
+	"notepassword" => "Leave blank if you dont want to change current password ",	
+	"submit" => "Submit",
+	"signin" => "Sign In",
+	"signup" => "Sign Up",
+	"language" => "Language",	
+	"firstname" => "First Name",
+	"lastname" => "Last Name ",
+	"lastlogin"	=> "Last Login",
+	"personalinfo"	=> "Personal Info",
+	"changepassword"	=> "Change Password",
+	"registernew" => "Register New Account ",
+	
+/* grid , pagination */
+	"grid_displaying" 	=> "Displaying",
+	"grid_to" 			=> "To",
+	"grid_of" 			=> "Of",
+	"grid_show" 			=> "Show",
+	"grid_sort" 			=> "Sort",
+	"grid_order" 			=> "Order",	
+		
+
+/* Menu navigation here */
+	"m_controlpanel"	=> "Control Panel",
+	"m_dashboard" 		=> "Dashboard",
+	"m_setting" 		=> "Setting",
+	"m_usersgroups" 	=> "Users & Groups",
+	"m_users" 			=> "Users",
+	"m_groups" 			=> "Groups",
+	"m_pagecms" 		=> "Page CMS",
+	"m_menu" 			=> "Menu Management",
+	"m_logs" 			=> "Activity Logs",
+	"m_codebuilder" 	=> "Code Builder",
+	"m_blastemail" 		=> "Blast Email",
+	"m_myaccount" 		=> "My Account",
+	"m_logout" 			=> "Logout",
+	"m_profile" 		=> "Profile",
+
+/* Setting page translation */	
+
+	"t_generalsetting"		=> "General Setting",
+	"t_generalsettingsmall"	=> "Manage Basic Setting Configuration",
+	"t_blastemail"			=> "Blast Email",
+	"t_blastemailsmall"		=> "Send bulk email to users",
+	"t_emailtemplate"		=> "Email Template",
+	"t_emailtemplatesmall"	=> "Template Email",
+	"t_loginsecurity"		=> "Login & Registration",
+	"t_loginsecuritysmall"	=> "",		
+	"t_socialmedia"			=> "Social media",
+	"t_lfb"					=> "Login Facebook",
+	"t_lgoogle"				=> "Login Google",
+	"t_ltwit"				=> "Login Twitter",
+	"tab_siteinfo"			=> "Site Info",
+	"tab_loginsecurity"		=> "Login & Security",
+	"tab_email"				=> "Email Template",
+	"fr_appname"			=> "Application Name ",
+	"fr_appdesc"			=> "Application Desc",
+	"fr_comname"			=> "Company Name ",
+	"fr_emailsys"			=> "Email System ",
+	"fr_emailmessage"		=> "Email Message ",
+	"fr_enable"				=> "Enable",
+	"fr_mainlanguage"			=> "Main Language",
+	"fr_appid"				=> "APP ID",
+	"fr_secret"				=> "SECRET NUMBER",
+	"fr_registrationdefault"		=> "Default Group Registration ",
+	"fr_registrationsetting"	=> "Registration Setting",
+	"fr_registration"		=> "Registration",
+	"fr_registrationauto"		=> "Automatic activation ",
+	"fr_registrationmanual"		=> "Manual activation ",
+	"fr_registrationemail"		=> "Email with activation link ",	
+	"fr_emailsubject"				=> "Subject",
+	"fr_emailsendto"				=> "Send To",
+	"fr_emailmessage"				=> "Email Message",
+	"fr_emailtag"					=> "You Can Use",
+	
+	
+/* submit */
+	"sb_savechanges"			=> "Save Changes",
+	"sb_send"					=> "Send",
+	"sb_save"					=> "Save",
+	"sb_submit"					=> "Submit",
+	"sb_cancel"					=> "Cancel",	
+	
+/* button */
+	"btn_back"						=> "Back",	
+	"btn_action"					=> "Action",	
+	"btn_search"					=> "Search",	
+	"btn_download"					=> "Download",	
+	"btn_config"					=> "Configuration",	
+	"btn_create"					=> "Create",	
+	"btn_remove"					=> "Remove",
+	"btn_edit"						=> "Edit",	
+	"btn_view"						=> "View",
+	"btn_typesearch"				=> "Tyoe dan Enter",		
+	
+/* Core Module */
+	"t_menu"						=> "Menu Management",
+	"t_menusmall"					=> "List Of All Menu",
+	"t_tipsdrag"					=> "Drag and Drop to reording menu list ",
+	"t_tipsnote"					=> "Note ! , Menu only support 3 level  ",
+	"tab_topmenu"					=> "Top Menu",
+	"tab_sidemenu"					=> "Side Menu ",
+	"sb_reorder"					=> "Reorder Menu",	
+	"fr_mtitle"						=> "Name / Title ",	
+	"fr_mtype"						=> "Menu Type",	
+	"fr_mposition"					=> "Position",	
+	"fr_mactive"					=> "Active",	
+	"fr_minactive"					=> "Inactive",
+	"fr_maccess"					=> "Akses",	
+	"fr_miconclass"					=> "Icon Class",
+	"fr_mpublic"					=> "Public",
+	"fr_mexample"					=> "Example",
+	"fr_musage"						=> "Use",	
+	
+/* Module */
+	"t_module"						=> "Module",
+	"t_modulesmall"					=> "List Of All Module",
+	"tab_installed"					=> "Installed Module",
+	"tab_core"						=> "Core Module",
+	"fr_modtitle"					=> "Module Name / Title",
+	"fr_modnote"					=> "Module Note",
+	"fr_modtable"					=> "Module Table",
+	"fr_modautosql"					=> "Auto Mysql Statment",
+	"fr_modmanualsql"				=> "Manual Mysql Statment ",
+	
+/*updates	on may ,5 2014 */
+	
+	"loginsocial"				=> "Login Social Networking",
+	"enteremailforgot"			=> "Enter Your Email Address",
+	"detail" 					=> "View Detail",
+	"addedit" 					=> "Add - Edit",
+	
+/* Notification */
+	"note_noexists"				=> "Page Does Not Exists!",
+	"note_restric"				=> "Your are not allowed to access the page!",
+	"note_success"				=> "Data Has Been Save Successfull !",
+	"note_error"				=> "The following errors occurred !",
+	"note_success_delete"		=> "Has Been Removed Successfull!",	
+
+);

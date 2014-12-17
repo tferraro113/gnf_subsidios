@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"tipo","label":"Tipo de Imagen","type":"select","options":["Imagen","Flash"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","list_choose":"default"}

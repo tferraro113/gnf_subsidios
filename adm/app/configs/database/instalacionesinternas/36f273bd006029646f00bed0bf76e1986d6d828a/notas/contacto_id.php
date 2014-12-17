@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"contacto_id","label":"Contacto","type":"autocomplete","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","db_options":{"table":"contactos","key":"id","value":"nombre"},"list_choose":"database"}

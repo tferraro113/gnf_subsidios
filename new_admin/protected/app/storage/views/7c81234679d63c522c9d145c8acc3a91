@@ -1,0 +1,45 @@
+<div style="width:padding:10px;;">
+
+<?php echo Form::open(array('url'=>$module.'/conn/'.$module_name, 'id'=>'conn_form','class'=>'form-vertical' ,'parsley-validate'=>'','novalidate'=>' ')); ?>
+	<div id="result"></div>
+<div class="padding-lg">
+
+	<div class="form-group">	
+		<label> Table </label>
+		<select name="db" id="db"  class="ext form-control" required ></select>	
+	</div>	
+	<div class="form-group">	
+		<label> Key  </label>
+		<select name="key" id="key"  class="ext form-control" required></select>	
+	</div>	
+	<div class="form-group">	
+		<label> Display as </label>
+		<select name="display"  class="ext form-control" id="display" required></select>	
+	</div>	
+	<div class="form-group">
+			<input type="hidden" name="module_id" value="<?php echo $row->module_id; ?>" />
+			<input type="hidden" name="field_id" value="<?php echo $field_id; ?>" />
+			<input type="hidden" name="alias" value="<?php echo $alias; ?>" />
+			<button type="submit" class="btn btn-primary" id="saveLayout"> Save Connection </button>
+	
+	 </div>	 			 
+</div>
+<?php echo Form::close(); ?>
+
+</div>
+
+<script>
+$(document).ready(function(){
+			
+	$("#db").jCombo("<?php echo URL::to($module.'/combotable'); ?>",
+	{ selected_value : "<?php echo $f['db']; ?>" });
+
+	$("#key").jCombo("<?php echo URL::to($module.'/combotablefield'); ?>?table=",
+	{ selected_value : "<?php echo $f['key']; ?>", parent: "#db", initial_text : ' Primary Key' });
+
+	$("#display").jCombo("<?php echo URL::to($module.'/combotablefield'); ?>?table=",
+	{ selected_value : "<?php echo $f['display']; ?>", parent: "#db",   initial_text : ' Display Text'});
+});	
+</script>	
+
+

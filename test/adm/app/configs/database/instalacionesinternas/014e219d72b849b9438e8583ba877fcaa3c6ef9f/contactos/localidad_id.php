@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"localidad_id","label":"Localidad","type":"select","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"notEmpty","db_options":{"table":"localidades","key":"id","value":"nombre","order":"nombre","order_type":"asc"},"list_choose":"database"}

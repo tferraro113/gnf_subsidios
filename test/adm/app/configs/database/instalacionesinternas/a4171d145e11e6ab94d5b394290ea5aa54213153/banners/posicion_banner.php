@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"posicion_banner","label":"posicion_banner","type":"select","options":["formulario","formulario_enviado"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","multiple":"","list_choose":"default"}
